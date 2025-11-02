@@ -1,0 +1,128 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: url('https://www.freepik.com/free-photos-vectors/tech-new-year') no-repeat center top;
+  background-size: cover;
+  color: #333;
+}
+
+header.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.promo-badge {
+  background: #ff4d4d;
+  color: white;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.product-overview, .promo {
+  background: white;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+.promo ul li {
+    list-style: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+.videos iframe {
+  width: 100%;
+  max-width: 500px;
+  height: 280px;
+  margin: 20px 10px;
+}
+
+.cta .btn {
+  display: inline-block;
+  background: #0078d7;
+  color: white;
+  padding: 12px 24px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.testimonials blockquote {
+  font-style: italic;
+  margin: 20px 0;
+}
+
+.countdown {
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #f2f2f2;
+}
+.product-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin: 15px 0 5px;
+  font-size: 1.4em;
+}
+
+.card .price {
+  font-weight: bold;
+  color: #0078d7;
+  margin-bottom: 10px;
+}
+
+.card .btn {
+  margin-top: 15px;
+  display: inline-block;
+  background: #0078d7;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+}
